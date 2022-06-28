@@ -1,0 +1,18 @@
+# Period Initial
+
+Read "configs"
+Read "models"
+
+# Period Running
+
+"middleware" -> "routers" -> "controllers" -> "services" -> "models" -> "middleware"
+                                   |               |
+                              "validation"      "helper"
+                                "helper"
+
+
+
+
+
+
+
