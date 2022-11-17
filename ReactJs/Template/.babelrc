@@ -1,0 +1,23 @@
+{
+    "presets": [[
+        "next/babel",
+        {
+            "preset-react": {
+              "runtime": "automatic",
+              "importSource": "@emotion/react"
+            }
+          }
+    ]],
+    "plugins": [
+        "inline-react-svg",
+        "@emotion/babel-plugin",
+        ["import",{ "libraryName": "antd", "style": true }]
+    ],
+    "env": {
+        "production": {
+            "plugins": [
+                "transform-remove-console"
+            ]
+        }
+    }
+  }
